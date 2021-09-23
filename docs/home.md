@@ -41,9 +41,9 @@
 > ### 后端
 
 <div class="bookRow">
-	<div class="bookCell" onClick="navTo('#/bend/README.md')">
-		<h4 class="bookName">tmind-Svr</h4>
-		<p class="bookDescribe">详细描述</p>
+	<div class="bookCell" onClick="navTo('#/bend/koa2/README.md')">
+		<h4 class="bookName">KOA2</h4>
+		<p class="bookDescribe">KOA2资源及参考资料</p>
 	</div>
 </div>
 
@@ -58,6 +58,8 @@
 
 > ### 资源
 
+* #### 常用 DNS [阅读](#/resouce/dns.md)
+
 * #### 云服务
 <div class="bookRow">
 	<div class="bookCell">
@@ -70,8 +72,8 @@
 		</p>
 	</div>
 	<div class="bookCell">
-		<h4 class="bookName">vercel</h4>
-		<p class="bookDescribe">MongoDB Cloud</p>
+		<h4 class="bookName">MongoDB Cloud</h4>
+		<p class="bookDescribe">基于 MongoDB 的云数据库</p>
 		<p class="tagList">
 			<span onClick="navTo('https://www.mongodb.com/zh-cn/cloud')">官网</span>
 			<span onClick="navTo('https://zhuanlan.zhihu.com/p/347990778')">参考</span>
@@ -80,26 +82,91 @@
 	</div>
 </div>
 
+* #### 博客
+<div class="bookRow">
+	<div class="bookCell">
+		<h4 class="bookName">汇总文章</h4>
+		<p class="bookDescribe">无代码博客工具汇总</p>
+		<p class="tagList">
+			<span onClick="navTo('https://mp.weixin.qq.com/s/kirndVjR1V993_aIYeR3gQ')">参考</span>
+		</p>
+	</div>
+	<div class="bookCell">
+		<h4 class="bookName">docsify</h4>
+		<p class="bookDescribe">无代码博客工具</p>
+		<p class="tagList">
+			<span onClick="navTo('https://docsify.js.org/#/zh-cn/quickstart')">参考</span>
+		</p>
+	</div>
+</div>
+
 > ### 开发
 
-* #### 参考资料
+* #### 教程
 
 <div class="bookRow">
-	<div class="bookCell" onClick="navTo('#/dev/httpStatuCode.md')">
-		<h4 class="bookName">HTTP 状态码</h4>
-		<p class="bookDescribe">详细描述</p>
+	<div class="bookCell" onClick="navTo('https://www.liaoxuefeng.com/wiki/1022910821149312/1023020745357888')">
+		<h4 class="bookName">JavaScript教程</h4>
+		<p class="bookDescribe">JS教程网站</p>
 	</div>
 </div>
 
 * #### 工具库
 
 <div class="bookRow">
+	<div class="bookCell" onClick="navTo('#/bend/npm/README.md')">
+		<h4 class="bookName">NPM 包汇总</h4>
+		<p class="bookDescribe">详细描述</p>
+	</div>
 	<div class="bookCell" onClick="navTo('#/dev/tools/color.md')">
 		<h4 class="bookName">色彩工具</h4>
 		<p class="bookDescribe">详细描述</p>
 	</div>
-	<div class="bookCell" onClick="navTo('#/dev/tools/webSocket.md')">
-		<h4 class="bookName">webSocket</h4>
-		<p class="bookDescribe">详细描述</p>
+	<div class="bookCell" onClick="navTo('http://coolaf.com/tool/chattest')">
+		<h4 class="bookName">webSocket在线测试</h4>
+		<p class="bookDescribe">-</p>
+	</div>
+	<div class="bookCell" onClick="navTo('http://coolaf.com/en/tool/post')">
+		<h4 class="bookName">online POST and GET</h4>
+		<p class="bookDescribe">在线 GET 和 POST测试</p>
+	</div>
+	<div class="bookCell" onClick="navTo('http://coolaf.com/en/tool/testing')">
+		<h4 class="bookName">api接口压力测试</h4>
+		<p class="bookDescribe">-</p>
+	</div>
+	<div class="bookCell" onClick="navTo('http://coolaf.com/en/tool/port')">
+		<h4 class="bookName">端口扫描</h4>
+		<p class="bookDescribe">-</p>
+	</div>
+</div>
+
+* #### JSON 类
+
+<div class="bookRow">
+	<div class="bookCell" onClick="navTo('http://coolaf.com/en/tool/jurl')">
+		<h4 class="bookName">JSON 转 URL</h4>
+		<p class="bookDescribe">-</p>
+	</div>
+</div>
+
+* #### URL 类
+
+<div class="bookRow">
+	<div class="bookCell" onClick="navTo('http://coolaf.com/en/tool/ud')">
+		<h4 class="bookName">URL/MD5/SHA1 编码与解码互转</h4>
+		<p class="bookDescribe">-</p>
+	</div>
+</div>
+
+* #### 格式化及编码
+
+<div class="bookRow">
+	<div class="bookCell" onClick="navTo('http://coolaf.com/en/tool/ff')">
+		<h4 class="bookName">XML/SQL/HTML</h4>
+		<p class="bookDescribe">格式化及压缩</p>
+	</div>
+	<div class="bookCell" onClick="navTo('http://coolaf.com/en/tool/unicode')">
+		<h4 class="bookName">Unicode与中文互转</h4>
+		<p class="bookDescribe">在线转换</p>
 	</div>
 </div>
