@@ -31,6 +31,11 @@
 	<span>VUE3</span>
 	<span>VUE3</span>
 </p>
+<p class="tagList"><span>HTML5 UP</span>
+	<p>超过 80 款漂亮的免费可商用、自适应网页模板</p>
+	<span onClick="navTo('[#/fend/web.md](https://html5up.net/)')">打开</span>
+</p>
+
 <div class="bookRow">
 	<div class="bookCell" onClick="navTo('[#/fend/web.md](https://html5up.net/)')">
 		<h4 class="bookName">HTML5 UP</h4>
@@ -58,7 +63,7 @@
 
 > ### 资源
 
-* #### 常用 DNS [阅读](#/resouce/dns.md)
+* #### 常用 DNS [阅读]('#/resouce/dns.md')
 
 * #### 云服务
 <div class="bookRow">
