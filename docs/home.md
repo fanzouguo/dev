@@ -40,6 +40,17 @@
 	</li>
 </ul>
 
+* #### 图标资源
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>xicons</span>
+		<p>整合自 fluentui-system-icons、ionicons、ant-design-icons、material-design-icons、Font-Awesome tabler-icons 和 carbon 的 SVG Vue/React 组件</p>
+		<span onClick="navTo('https://www.xicons.org/#/')">进入</span>
+	</li>
+</ul>
+
+
 ### 前端
 <ul class="itemConter">
 	<li class="itemList">
@@ -51,6 +62,11 @@
 		<span>Element-plus</span>
 		<p>基于 VUE3 的 element-UI 组件库</p>
 		<span onClick="navTo('https://element-plus.gitee.io/zh-CN/guide/design.html')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>Naive UI</span>
+		<p>基于 VUE3 和 TS 的 组件库</p>
+		<span onClick="navTo('https://www.naiveui.com/zh-CN/os-theme')">进入</span>
 	</li>
 </ul>
 
