@@ -10,7 +10,7 @@
 	<span onClick="aaaaaa">KOA2</span>
 	<span onClick="aaaaaa">VUE-3</span>
 	<span onClick="naveTo('https://github.com/matt-oconnell/vue-monaco-editor/')">vue-monaco-editor</span>
-	<span onClick="naveTo('https://github.com/vuejs/awesome-vue#table')">Awesome-Vue</span>
+	<span onClick="naveTo('https://awesome-vue.js.org/')">Awesome-Vue</span>
 	<span onClick="naveTo('https://www.w3cschool.cn/electronmanual/electronmanual-clipboard.html')">Electron(中文)</span>
 	<span onClick="aaaaaa">Electron-Vue</span>
 	<span onClick="naveTo('http://www.react-native.cn/')">React Native</span>
@@ -64,6 +64,19 @@
 </ul>
 
 ### 数据库
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>SQL Intersect</span>
+		<p>SQL语句、语法、指令参考手册</p>
+		<span onClick="navTo('https://www.1keydata.com/cn/sql/')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>node-postgres</span>
+		<p>tFrameV9 平台采用的 postgreSQL node包</p>
+		<span onClick="navTo('https://node-postgres.com/')">参考</span>
+	</li>
+</ul>
 
 ### 资源
 <ul class="itemConter">
@@ -184,6 +197,11 @@
 		<span>JSON 转 URL</span>
 		<p>-</p>
 		<span onClick="navTo('http://coolaf.com/en/tool/jurl')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>JSON处理工具</span>
+		<p>JSON处理、压缩、转义、Unicode、转 GET 参数</p>
+		<span onClick="navTo('http://postjson.com/')">进入</span>
 	</li>
 </ul>
 
