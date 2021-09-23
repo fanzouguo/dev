@@ -1,4 +1,5 @@
-![logo](_static/logo.png)
+<!-- ![logo](_static/logo.png) -->
+![](_media/bg.jpg)
 
 # 开发资源库
 
@@ -9,4 +10,3 @@
 [Get Started](/home.md)
 
 <!-- ![color](#333) -->
-![](_media/bg.jpg)
