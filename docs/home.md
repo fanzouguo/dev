@@ -31,10 +31,13 @@
 	<span>VUE3</span>
 	<span>VUE3</span>
 </p>
-<p class="tagList"><span>HTML5 UP</span>
-	<p>超过 80 款漂亮的免费可商用、自适应网页模板</p>
-	<span onClick="navTo('[#/fend/web.md](https://html5up.net/)')">打开</span>
-</p>
+<ul class="itemConter">
+	<li class="itemList">
+		<span>HTML5 UP</span>
+		<p>超过 80 款漂亮的免费可商用、自适应网页模板</p>
+		<span onClick="navTo('[#/fend/web.md](https://html5up.net/)')">打开</span>
+	</li>
+</ul>
 
 <div class="bookRow">
 	<div class="bookCell" onClick="navTo('[#/fend/web.md](https://html5up.net/)')">

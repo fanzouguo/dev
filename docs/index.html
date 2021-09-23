@@ -47,6 +47,7 @@
     .txtCenter {
       text-align: center;
     }
+    .itemList,
     .tagList {
       position: relative;
       display: flex;
@@ -55,9 +56,30 @@
       flex-wrap: wrap;
       width: 100%;
       min-height: 32px;
-      padding: 4px;
-      margin-bottom: 8px;
+      padding: 0px;
+      margin-bottom: 4px;
     }
+    .itemConter {
+      list-style: none;
+    }
+    .itemList {
+      font-size: 12px;
+      font-weight: 100;
+    }
+    .itemList > span:first-child {
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      background-color: #444;
+    }
+    .itemList > p {
+      flex: 1;
+      padding: 0 8px;
+      text-align: left;
+    }
+    .itemList > span:not(:first-child),
     .tagList > span {
       height: 20px;
       line-height: 20px;
