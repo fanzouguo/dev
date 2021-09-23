@@ -24,13 +24,6 @@
 
 > ### 前端工具集
 
-<p class="tagList">
-	<span>VUE3</span>
-	<span>VUE3</span>
-	<span>VUE3</span>
-	<span>VUE3</span>
-	<span>VUE3</span>
-</p>
 <ul class="itemConter">
 	<li class="itemList">
 		<span>HTML5 UP</span>
