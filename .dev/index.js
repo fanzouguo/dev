@@ -69,13 +69,7 @@ const exec = async () => {
 	];
 	try {
 		for (const v of _arrCmd) {
-			await shelljs.exec(v, (code, stdout, stderr) => {
-				if (stderr) {
-					tEcho('发布未成功', '失败', 'ERR');
-					shelljs.echo(stderr);
-					process.exit(1);
-				}
-			});
+			await shelljs.exec(v);
 		}
 		tEcho('发布完成！\n\n', '成功', 'SUCC');
 	} catch (err) {
