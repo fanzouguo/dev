@@ -24,11 +24,27 @@
 	<span onClick="aaaaaa">ECMAScript 6</span>
 </p>
 
+### UI
+
+* #### 图像资源
+
+<p class="tagList borderBottom">
+	<span onClick="navTo('https://unsplash.com/')">Unsplash</span>
+</p>
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>PearOCR</span>
+		<p>免费无限制的网页版离线文字识别提取 OCR 工具 (免安装/不上传/本机识别)</p>
+		<span onClick="navTo('https://www.iplaysoft.com/pearocr.html')">进入</span>
+	</li>
+</ul>
+
 ### 前端
 <ul class="itemConter">
 	<li class="itemList">
 		<span>HTML5 UP</span>
-		<p>超过 80 款漂亮的免费可商用、自适应网页模板</p>
+		<p>免费可商用、自适应网页模板</p>
 		<span onClick="navTo('https://html5up.net/')">进入</span>
 	</li>
 	<li class="itemList">
@@ -47,10 +63,7 @@
 	</li>
 </ul>
 
-<!-- > ### 数据库 -->
 ### 数据库
-
-<!-- > ### 资源 -->
 
 ### 资源
 <ul class="itemConter">
@@ -60,8 +73,6 @@
 		<span onClick="navTo('#/lib/dns.md')">进入</span>
 	</li>
 </ul>
-
-<!-- * #### 云服务 -->
 
 * #### 云服务
 <ul class="itemConter">
@@ -88,7 +99,6 @@
 	</li>
 </ul>
 
-<!-- * #### 博客 -->
 * #### 博客
 
 <ul class="itemConter">
@@ -104,10 +114,24 @@
 	</li>
 </ul>
 
-<!-- > ### 开发 -->
+* #### 开源网盘工具
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>iFileSpace</span>
+		<p>免费简单实用的私人网盘搭建工具 (多平台/个人团队文件管理/Go开发)</p>
+		<span onClick="navTo('https://ifile.space')">官网</span>
+		<span onClick="navTo('https://www.iplaysoft.com/ifilespace.html')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>docsify</span>
+		<p>无需代码的博客工具</p>
+		<span onClick="navTo('https://docsify.js.org/#/zh-cn/quickstart')">参考</span>
+	</li>
+</ul>
+
 ### 开发
 
-<!-- * #### 教程 -->
 * #### 教程
 
 <ul class="itemConter">
@@ -118,7 +142,6 @@
 	</li>
 </ul>
 
-<!-- * #### 工具库 -->
 * #### 工具库
 
 <ul class="itemConter">
@@ -154,7 +177,6 @@
 	</li>
 </ul>
 
-<!-- * #### JSON 类 -->
 * #### JSON 类
 
 <ul class="itemConter">
@@ -165,7 +187,6 @@
 	</li>
 </ul>
 
-<!-- * #### URL 类 -->
 * #### URL 类
 
 <ul class="itemConter">
@@ -176,7 +197,6 @@
 	</li>
 </ul>
 
-<!-- * #### 格式化及编码 -->
 * #### 格式化及编码
 
 <ul class="itemConter">
