@@ -20,6 +20,9 @@ const VER_POLICY = {
 const updateVer = (ver, pliicy = 0) => {
 	const _arr = ver.split('.');
 	_arr[pliicy]++;
+	if (pliicy < 2) {
+		_arr[pliicy + 1] = 0;
+	}
 	return _arr.join('.');
 };
 
@@ -43,28 +46,27 @@ const exec = async () => {
 	envCheck('node', 'nodeJS');
 	const path_pkg = path.resolve(BASE_PATH, 'package.json');
 	const pkg = fs.readJsonSync(path_pkg);
-	// const { policyVal } = await inquirer.prompt({
-	// 	name: 'policyVal',
-	// 	type: 'list',
-	// 	message: '请选择版本更新策略',
-	// 	default: 'major',
-	// 	choices: [
-	// 		'major',
-	// 		'minor',
-	// 		'build'
-	// 	]
-	// });
-	// const { GIT_MEMO } = await inquirer.prompt({
-	// 	type: 'input',
-	// 	message: '请输入提交备注',
-	// 	name: 'GIT_MEMO'
-	// });
-	// pkg.version = updateVer(pkg.version, VER_POLICY[policyVal]);
-	pkg.version = updateVer(pkg.version, 2);
+	const { policyVal } = await inquirer.prompt({
+		name: 'policyVal',
+		type: 'list',
+		message: '请选择版本更新策略',
+		default: 'major',
+		choices: [
+			'major',
+			'minor',
+			'build'
+		]
+	});
+	const { GIT_MEMO } = await inquirer.prompt({
+		type: 'input',
+		message: '请输入提交备注',
+		name: 'GIT_MEMO'
+	});
+	pkg.version = updateVer(pkg.version, VER_POLICY[policyVal]);
 	fs.writeFileSync(path_pkg, JSON.stringify(pkg, null, 2));
 	const _arrCmd = [
 		'git add .',
-		`git commit -m "${tDate().format('yyyy-mm-dd hh:mi:ss')}-"`,
+		`git commit -m "${tDate().format('yyyy-mm-dd hh:mi:ss')}-${GIT_MEMO}"`,
 		'git push -u origin main'
 	];
 	try {
