@@ -51,7 +51,7 @@
 		<tr>
 			<td>百度</td>
 			<td>180.76.76.76</td>
-			<td>2400:da00::6666 (ipv6)</td>
+			<td>2400&#58;da00&#58;&#58;6666 (ipv6)</td>
 			<td><a href='https://dudns.baidu.com/intro/publicdns/' target="_blank">链接</a></td>
 		</tr>
 		<tr>
