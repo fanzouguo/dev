@@ -21,7 +21,9 @@ const updateVer = (ver, pliicy = 0) => {
 	const _arr = ver.split('.');
 	_arr[pliicy]++;
 	if (pliicy < 2) {
-		_arr[pliicy + 1] = 0;
+		for (let i = pliicy + 1; i < 3; i++) {
+			_arr[i] = 0;
+		}
 	}
 	return _arr.join('.');
 };
