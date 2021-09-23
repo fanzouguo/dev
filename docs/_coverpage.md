@@ -1,6 +1,6 @@
-# 开发资源库
+# <span style="color: #333">开发资源库</span>
 
->  All for tFrame platform!
+>  <span style="color: #333">All for tFrame platform!</span>
 
 [Get Started](/home.md)
 
