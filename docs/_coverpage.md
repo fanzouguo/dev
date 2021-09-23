@@ -1,4 +1,4 @@
-![logo](_static/logo.png)
+![logo](https://raw.githubusercontent.com/fanzouguo/dev/main/docs/_static/logo.png)
 
 # 开发资源库
 
