@@ -1,4 +1,5 @@
-### <p class="colHeader">官网集合</p>
+<div class="homePage">
+### 官网集合
 <p class="tagList borderBottom">
 	<span onClick="navTo('https://zhongsp.gitbooks.io/typescript-handbook/content/')">TS(中文)</span>
 	<span onClick="navTo('https://es6.ruanyifeng.com/#docs/number')">ECMAScript 6</span>
@@ -21,7 +22,7 @@
 	<span onClick="aaaaaa">ECMAScript 6</span>
 </p>
 
-### <p class="colHeader">前端</p>
+### 前端
 <ul class="itemConter">
 	<li class="itemList">
 		<span>HTML5 UP</span>
@@ -35,7 +36,7 @@
 	</li>
 </ul>
 
-### <p class="colHeader">后端</p>
+### 后端
 <ul class="itemConter">
 	<li class="itemList">
 		<span>KOA2</span>
@@ -45,22 +46,22 @@
 </ul>
 
 <!-- > ### 数据库 -->
-### <p class="colHeader">数据库</p>
+### 数据库
 
 <!-- > ### 资源 -->
 
-### <p class="colHeader">资源</p>
+### 资源
 <ul class="itemConter">
 	<li class="itemList">
 		<span>常用 DNS</span>
 		<p></p>
-		<span onClick="navTo('#/resouce/dns.md')">进入</span>
+		<span onClick="navTo('#/lib/dns.md')">进入</span>
 	</li>
 </ul>
 
 <!-- * #### 云服务 -->
 
-  #### <p class="colHeader">云服务</p>
+  #### 云服务
 <ul class="itemConter">
 	<li class="itemList">
 		<span>bit.dev</span>
@@ -86,7 +87,7 @@
 </ul>
 
 <!-- * #### 博客 -->
-  #### <p class="colHeader">博客</p>
+  #### 博客
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -102,10 +103,10 @@
 </ul>
 
 <!-- > ### 开发 -->
-### <p class="colHeader">开发</p>
+### 开发
 
 <!-- * #### 教程 -->
-  #### <p class="colHeader">教程</p>
+  #### 教程
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -116,7 +117,7 @@
 </ul>
 
 <!-- * #### 工具库 -->
-  #### <p class="colHeader">工具库</p>
+  #### 工具库
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -152,7 +153,7 @@
 </ul>
 
 <!-- * #### JSON 类 -->
-  #### <p class="colHeader">JSON 类</p>
+  #### JSON 类
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -163,7 +164,7 @@
 </ul>
 
 <!-- * #### URL 类 -->
-  #### <p class="colHeader">URL 类</p>
+  #### URL 类
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -174,7 +175,7 @@
 </ul>
 
 <!-- * #### 格式化及编码 -->
-  #### <p class="colHeader">格式化及编码</p>
+  #### 格式化及编码
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -188,3 +189,4 @@
 		<span onClick="navTo('http://coolaf.com/en/tool/unicode')">进入</span>
 	</li>
 </ul>
+</div>
