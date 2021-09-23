@@ -61,7 +61,7 @@
 
 <!-- * #### 云服务 -->
 
-  #### 云服务
+* #### 云服务
 <ul class="itemConter">
 	<li class="itemList">
 		<span>bit.dev</span>
@@ -87,7 +87,7 @@
 </ul>
 
 <!-- * #### 博客 -->
-  #### 博客
+* #### 博客
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -106,7 +106,7 @@
 ### 开发
 
 <!-- * #### 教程 -->
-  #### 教程
+* #### 教程
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -117,7 +117,7 @@
 </ul>
 
 <!-- * #### 工具库 -->
-  #### 工具库
+* #### 工具库
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -153,7 +153,7 @@
 </ul>
 
 <!-- * #### JSON 类 -->
-  #### JSON 类
+* #### JSON 类
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -164,7 +164,7 @@
 </ul>
 
 <!-- * #### URL 类 -->
-  #### URL 类
+* #### URL 类
 
 <ul class="itemConter">
 	<li class="itemList">
@@ -175,7 +175,7 @@
 </ul>
 
 <!-- * #### 格式化及编码 -->
-  #### 格式化及编码
+* #### 格式化及编码
 
 <ul class="itemConter">
 	<li class="itemList">
