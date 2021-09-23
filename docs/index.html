@@ -163,7 +163,7 @@
     mermaid.initialize({ startOnLoad: false });
     window.$docsify = {
       name: '开发资源库',
-      repo: '',
+      repo: 'https://github.com/fanzouguo/dev/',
       // 在侧边栏中出现的网站图标，可以使用CSS来更改大小
       logo: '_static/logo.png',
       maxLevel: 4,
@@ -204,7 +204,8 @@
     //   navigator.serviceWorker.register('sw.js')
     // }
     window.navTo = url => {
-      self.location = url;
+      // self.location = url;
+      window.open(url);
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>

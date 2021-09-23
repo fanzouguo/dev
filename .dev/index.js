@@ -52,7 +52,7 @@ const exec = async () => {
 		name: 'policyVal',
 		type: 'list',
 		message: '请选择版本更新策略',
-		default: 'major',
+		default: 'build',
 		choices: [
 			'major',
 			'minor',
