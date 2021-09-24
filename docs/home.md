@@ -95,11 +95,32 @@
 </ul>
 
 ### 资源
+
+* #### 公共
 <ul class="itemConter">
 	<li class="itemList">
 		<span>常用 DNS</span>
 		<p></p>
 		<span onClick="navTo('#/lib/dns.md')">进入</span>
+	</li>
+</ul>
+
+* #### 常用 API
+<ul class="itemConter">
+	<li class="itemList">
+		<span>翻译接口</span>
+		<p>各平台免费翻译API</p>
+		<span onClick="navTo('https://www.cnblogs.com/fanyang1/p/9414088.html')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>BING翻译</span>
+		<p>BING翻译 API 接口</p>
+		<span onClick="navTo('https://api.microsofttranslator.com/v2/Http.svc/Translate?appId=A4D660A48A6A97CCA791C34935E4C02BBB1BEC1C&from=&to=en&text=%E9%87%8D%E6%9E%84')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>百度翻译</span>
+		<p>免费翻译API——百度翻译</p>
+		<span onClick="navTo('https://zhuanlan.zhihu.com/p/81945858')">参考</span>
 	</li>
 </ul>
 
