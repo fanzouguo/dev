@@ -198,7 +198,7 @@
 	<li class="itemList">
 		<span>NPM 包汇总</span>
 		<p>详细描述</p>
-		<span onClick="navTo('#/bend/npm/README.md')">进入</span>
+		<span onClick="navTo('#/dev/tools/npm/README.md')">进入</span>
 	</li>
 	<li class="itemList">
 		<span>色彩工具</span>
