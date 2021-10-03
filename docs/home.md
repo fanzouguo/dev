@@ -6,21 +6,22 @@
 	<span onClick="navTo('https://zhongsp.gitbooks.io/typescript-handbook/content/')">TS(中文)</span>
 	<span onClick="navTo('https://es6.ruanyifeng.com/#docs/number')">ECMAScript 6</span>
 	<span onClick="navTo('https://developer.mozilla.org/zh-CN/docs/Web')">MDN</span>
-	<span onClick="naveTo('https://nodejs.cn/')">NODEJS(中文)</span>
+	<span onClick="navTo('https://nodejs.cn/')">NODEJS(中文)</span>
 	<span onClick="aaaaaa">KOA2</span>
 	<span onClick="aaaaaa">VUE-3</span>
-	<span onClick="naveTo('https://github.com/matt-oconnell/vue-monaco-editor/')">vue-monaco-editor</span>
-	<span onClick="naveTo('https://awesome-vue.js.org/')">Awesome-Vue</span>
-	<span onClick="naveTo('https://www.w3cschool.cn/electronmanual/electronmanual-clipboard.html')">Electron(中文)</span>
+	<span onClick="navTo('https://github.com/matt-oconnell/vue-monaco-editor/')">vue-monaco-editor</span>
+	<span onClick="navTo('https://awesome-vue.js.org/')">Awesome-Vue</span>
+	<span onClick="navTo('https://www.w3cschool.cn/electronmanual/electronmanual-clipboard.html')">Electron(中文)</span>
 	<span onClick="aaaaaa">Electron-Vue</span>
-	<span onClick="naveTo('http://www.react-native.cn/')">React Native</span>
-	<span onClick="naveTo('https://cordova.axuer.com/')">Cordova(中文)</span>
-	<span onClick="naveTo('https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E4%BB%8B')">微信小程序</span>
-	<span onClick="naveTo('https://open.weixin.qq.com/')">微信开放平台</span>
-	<span onClick="naveTo('https://echarts.apache.org/zh/index.html')">Echart</span>
-	<span onClick="naveTo('https://www.aliyun.com/')">阿里云</span>
+	<span onClick="navTo('http://www.react-native.cn/')">React Native</span>
+	<span onClick="navTo('https://cordova.axuer.com/')">Cordova(中文)</span>
+	<span onClick="navTo('https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E4%BB%8B')">微信小程序</span>
+	<span onClick="navTo('https://open.weixin.qq.com/')">微信开放平台</span>
+	<span onClick="navTo('https://open.feishu.cn/app/')">飞书开放平台</span>
+	<span onClick="navTo('https://echarts.apache.org/zh/index.html')">Echart</span>
+	<span onClick="navTo('https://www.aliyun.com/')">阿里云</span>
 	<span onClick="aaaaaa">华为云</span>
-	<span onClick="naveTo('https://feathericons.com/')">Feather</span>
+	<span onClick="navTo('https://feathericons.com/')">Feather</span>
 	<span onClick="aaaaaa">ECMAScript 6</span>
 </p>
 
@@ -198,7 +199,7 @@
 	<li class="itemList">
 		<span>NPM 包汇总</span>
 		<p>详细描述</p>
-		<span onClick="navTo('#/dev/tools/npm/README.md')">进入</span>
+		<span onClick="navTo('#/dev/npm/README.md')">进入</span>
 	</li>
 	<li class="itemList">
 		<span>色彩工具</span>
