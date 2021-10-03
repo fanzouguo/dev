@@ -18,6 +18,7 @@
 	<span onClick="navTo('https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E4%BB%8B')">微信小程序</span>
 	<span onClick="navTo('https://open.weixin.qq.com/')">微信开放平台</span>
 	<span onClick="navTo('https://open.feishu.cn/app/')">飞书开放平台</span>
+	<span onClick="navTo('https://open.feishu.cn/document/home/index')">飞书开发文档</span>
 	<span onClick="navTo('https://echarts.apache.org/zh/index.html')">Echart</span>
 	<span onClick="navTo('https://www.aliyun.com/')">阿里云</span>
 	<span onClick="aaaaaa">华为云</span>
