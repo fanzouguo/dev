@@ -26,6 +26,12 @@
 	<span onClick="aaaaaa">ECMAScript 6</span>
 </p>
 
+### 同类参考
+
+<p class="tagList borderBottom">
+	<span onClick="navTo('https://accounts.zoho.com.cn/signin?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.com.cn%2Fu%2Fh')">zoho</span>
+</p>
+
 ### UI
 
 * #### 图像资源
@@ -52,6 +58,15 @@
 	</li>
 </ul>
 
+* #### 模拟资源
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>mocka-placeholder</span>
+		<p>简单、优雅的内容占位符</p>
+		<span onClick="navTo('https://www.5axxw.com/wiki/content/5kmitj')">进入</span>
+	</li>
+</ul>
 
 ### 前端
 <ul class="itemConter">
@@ -70,6 +85,16 @@
 		<p>基于 VUE3 和 TS 的 组件库</p>
 		<span onClick="navTo('https://www.naiveui.com/zh-CN/os-theme')">进入</span>
 	</li>
+	<li class="itemList">
+		<span>Naive UI</span>
+		<p>基于 Vue 的前端架构，我做了这 15 点</p>
+		<span onClick="navTo('https://mp.weixin.qq.com/s/SyekNT9nNi3OGIEnLwq1kA')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>Naive UI</span>
+		<p>Vue中你不知道但却很实用的黑科技</p>
+		<span onClick="navTo('https://segmentfault.com/a/1190000007694540')">进入</span>
+	</li>
 </ul>
 
 ### 后端
@@ -77,7 +102,28 @@
 	<li class="itemList">
 		<span>KOA2</span>
 		<p>KOA2资源及参考资料</p>
+		<span onClick="navTo('https://koa.bootcss.com/#')">官网</span>
 		<span onClick="navTo('#/bend/koa2/README.md')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>KOA2</span>
+		<p>Koa2 入门教程</p>
+		<span onClick="navTo('https://segmentfault.com/a/1190000020062888')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>全局异常处理</span>
+		<p>koa2笔记（八）全局异常处理</p>
+		<span onClick="navTo('https://blog.csdn.net/weixin_34226706/article/details/91388625')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>从零开始的Koa实战（2） 路由</span>
+		<p>从零开始的Koa实战（2） 路由</p>
+		<span onClick="navTo('https://www.jianshu.com/p/22b5cd1b95c5')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>使用typescript改造koa开发框架</span>
+		<p></p>
+		<span onClick="navTo('https://www.jianshu.com/p/d1701c6a4b55')">进入</span>
 	</li>
 </ul>
 
@@ -149,6 +195,13 @@
 		<span onClick="navTo('https://www.mongodb.com/zh-cn/cloud')">官网</span>
 		<span onClick="navTo('https://zhuanlan.zhihu.com/p/347990778')">参考</span>
 	</li>
+	<li class="itemList">
+		<span>Travis CI</span>
+		<p>持续集成服务</p>
+		<span>免费资源</span>
+		<span onClick="navTo('https://www.travis-ci.com/')">官网</span>
+		<span onClick="navTo('https://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html')">参考</span>
+	</li>
 </ul>
 
 * #### 博客
@@ -163,6 +216,11 @@
 		<span>docsify</span>
 		<p>无需代码的博客工具</p>
 		<span onClick="navTo('https://docsify.js.org/#/zh-cn/quickstart')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>jupyter</span>
+		<p>Jupyter Notebook（此前被称为 IPython notebook）是一个交互式笔记本，支持运行 40 多种编程语言</p>
+		<span onClick="navTo('https://www.zhihu.com/question/46309360/answer/254638807')">参考</span>
 	</li>
 </ul>
 
@@ -188,9 +246,34 @@
 
 <ul class="itemConter">
 	<li class="itemList">
+		<span>ES6 相关</span>
+		<p>详细描述</p>
+		<span onClick="navTo('#/tutorial/es6.md')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>TypeScript</span>
+		<p>TS 教程</p>
+		<span onClick="navTo('#/tutorial/ts.md')">进入</span>
+	</li>
+	<li class="itemList">
 		<span>JavaScript教程</span>
 		<p>JS教程网站</p>
 		<span onClick="navTo('https://www.liaoxuefeng.com/wiki/1022910821149312/1023020745357888')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>CSS 相关</span>
+		<p>详细描述</p>
+		<span onClick="navTo('#/tutorial/css.md')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>界面交互</span>
+		<p>详细描述</p>
+		<span onClick="navTo('#/tutorial/ui.md')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>SVG</span>
+		<p>详细描述</p>
+		<span onClick="navTo('#/tutorial/svg.md')">进入</span>
 	</li>
 </ul>
 
@@ -226,6 +309,11 @@
 		<span>端口扫描</span>
 		<p>-</p>
 		<span onClick="navTo('http://coolaf.com/en/tool/port')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>在线Cron表达式生成器</span>
+		<p>-</p>
+		<span onClick="navTo('https://cron.qqe2.com/')">进入</span>
 	</li>
 </ul>
 
