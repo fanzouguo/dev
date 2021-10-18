@@ -224,6 +224,22 @@
 	</li>
 </ul>
 
+### IDE
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>VSCODE</span>
+		<p>详细描述</p>
+		<span onClick="navTo('#/ide/README.md')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>Certbot</span>
+		<p>免费的HTTPS证书</p>
+		<span onClick="navTo('https://certbot.eff.org/')">官网</span>
+		<span onClick="navTo('https://zhuanlan.zhihu.com/p/80909555')">参考</span>
+		<span onClick="navTo('https://blog.csdn.net/larpland/article/details/101349599')">参考</span>
+	</li>
+</ul>
 ### 资源
 
 * #### 公共
