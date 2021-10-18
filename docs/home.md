@@ -11,6 +11,7 @@
 	<span onClick="aaaaaa">VUE-3</span>
 	<span onClick="navTo('https://github.com/matt-oconnell/vue-monaco-editor/')">vue-monaco-editor</span>
 	<span onClick="navTo('https://awesome-vue.js.org/')">Awesome-Vue</span>
+	<span onClick="navTo('https://dribbble.com/')">Dribbble</span>
 	<span onClick="navTo('https://www.w3cschool.cn/electronmanual/electronmanual-clipboard.html')">Electron(中文)</span>
 	<span onClick="aaaaaa">Electron-Vue</span>
 	<span onClick="navTo('http://www.react-native.cn/')">React Native</span>
@@ -133,6 +134,62 @@
 	</li>
 </ul>
 
+### 服务器
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>Linux expect</span>
+		<p>自动化交互套件，主要应用于执行命令和程序时，系统以交互形式要求输入指定字符串，实现交互通信</p>
+		<span onClick="navTo('https://www.cnblogs.com/saneri/p/10819348.html')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>lsof</span>
+		<p>sof是系统管理/安全的尤伯工具</p>
+		<span onClick="navTo('https://www.jianshu.com/p/a3aa6b01b2e1')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>dnf</span>
+		<p>dnf命令 （常用总结）</p>
+		<span onClick="navTo('https://www.cnblogs.com/jpfss/p/6628736.html')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>firewall-cmd</span>
+		<p>centos8之firewall使用命令</p>
+		<span onClick="navTo('https://blog.csdn.net/weixin_41421201/article/details/104408171')">参考</span>
+	</li>
+</ul>
+
+### 安全
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>CentOS 8</span>
+		<p>CentOS 8 / CentOS Stream 换源，设置dnf / yum镜像</p>
+		<span onClick="navTo('https://www.cnblogs.com/wswind/p/11751829.html')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>python3-certbot-nginx.noarch</span>
+		<p>certbot-nginx的Python项目详细描述</p>
+		<span onClick="navTo('https://www.cnpython.com/pypi/certbot-nginx')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>Certbot</span>
+		<p>免费的HTTPS证书</p>
+		<span onClick="navTo('https://zhuanlan.zhihu.com/p/80909555')">参考</span>
+		<span onClick="navTo('https://blog.csdn.net/larpland/article/details/101349599')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>Nginx</span>
+		<p>centos8.0下安装Nginx1.17.1</p>
+		<span onClick="navTo('https://blog.csdn.net/qq_35866846/article/details/107043964')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>华为云镜像地址</span>
+		<p>华为云镜像 AppStream 地址</p>
+		<span onClick="navTo('https://repo.huaweicloud.com/centos/8-stream/AppStream/')">参考</span>
+	</li>
+</ul>
+
 ### 数据库
 
 <ul class="itemConter">
@@ -145,6 +202,16 @@
 		<span>node-postgres</span>
 		<p>tFrameV9 平台采用的 postgreSQL node包</p>
 		<span onClick="navTo('https://node-postgres.com/')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>postgres</span>
+		<p>centos8 安装postgresql数据库</p>
+		<span onClick="navTo('https://www.cnblogs.com/xingqiang/p/14147549.html')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>Mysql</span>
+		<p>在CentOS8中在线安装MySQL8</p>
+		<span onClick="navTo('https://blog.csdn.net/weixin_43647393/article/details/102842696')">参考</span>
 	</li>
 </ul>
 
@@ -330,6 +397,11 @@
 		<span>在线Cron表达式生成器</span>
 		<p>-</p>
 		<span onClick="navTo('https://cron.qqe2.com/')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>资源合集</span>
+		<p>-</p>
+		<span onClick="navTo('https://www.bossdesign.cn/shapedivider/')">进入</span>
 	</li>
 </ul>
 
