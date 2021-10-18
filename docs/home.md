@@ -172,6 +172,14 @@
 		<p>centos8之firewall使用命令</p>
 		<span onClick="navTo('https://blog.csdn.net/weixin_41421201/article/details/104408171')">参考</span>
 	</li>
+	<li class="itemList">
+		<span>firewall-cmd</span>
+		<p>code-server</p>
+		<span onClick="navTo('https://coder.com/')">官网</span>
+		<span onClick="navTo('https://coder.com/docs/code-server/v3.12.0/install#fedora-centos-rhel-suse')">手册</span>
+		<span onClick="navTo('https://github.com/cdr/code-server')">仓库</span>
+		<span onClick="navTo('https://www.bilibili.com/read/cv6314440/')">参考</span>
+	</li>
 </ul>
 
 ### 安全
@@ -185,6 +193,7 @@
 	<li class="itemList">
 		<span>Certbot</span>
 		<p>免费的HTTPS证书</p>
+		<span onClick="navTo('https://certbot.eff.org/')">官网</span>
 		<span onClick="navTo('https://zhuanlan.zhihu.com/p/80909555')">参考</span>
 		<span onClick="navTo('https://blog.csdn.net/larpland/article/details/101349599')">参考</span>
 	</li>
