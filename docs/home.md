@@ -240,6 +240,26 @@
 		<span onClick="navTo('https://blog.csdn.net/larpland/article/details/101349599')">参考</span>
 	</li>
 </ul>
+
+### 3D
+
+<ul class="itemConter">
+	<li class="itemList">
+		<span>C4D</span>
+		<p>详细描述</p>
+		<span onClick="navTo('https://www.maxon.net/zh')">官网</span>
+		<span onClick="navTo('https://www.zhihu.com/question/27600883')">参考</span>
+		<span onClick="navTo('https://zhuanlan.zhihu.com/p/26277569')">参考</span>
+	</li>
+	<li class="itemList">
+		<span>Certbot</span>
+		<p>免费的HTTPS证书</p>
+		<span onClick="navTo('https://certbot.eff.org/')">官网</span>
+		<span onClick="navTo('https://zhuanlan.zhihu.com/p/80909555')">参考</span>
+		<span onClick="navTo('https://blog.csdn.net/larpland/article/details/101349599')">参考</span>
+	</li>
+</ul>
+
 ### 资源
 
 * #### 公共
@@ -427,6 +447,11 @@
 		<span>资源合集</span>
 		<p>-</p>
 		<span onClick="navTo('https://www.bossdesign.cn/shapedivider/')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>convertio 图像格式转换</span>
+		<p>-</p>
+		<span onClick="navTo('https://convertio.co/zh/')">进入</span>
 	</li>
 </ul>
 
