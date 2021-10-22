@@ -76,12 +76,10 @@ const exec = async () => {
 			// @ts-ignore
 			await shelljs.exec(v);
 		}
-		// @ts-ignore
 		const sourceFile = `${process.cwd()}/docs/*`.replace(/\\\\/g, '/').replace(/\\/g, '/');
-		const cmdCopyStr = `scp -4 -C -r ${sourceFile} root@47.98.138.122:/ofus_file/html/nginx/www/@dev`;
-		// await shelljs.exec();
+		// @ts-ignore
+		await shelljs.exec(`scp -4 -C -r ${sourceFile} root@47.98.138.122:/ofus_file/html/nginx/www/@dev`);
 		tEcho('发布完成！\n\n', '成功', 'SUCC');
-		console.log(cmdCopyStr);
 	} catch (err) {
 		console.error(err);
 		process.exit(1);
