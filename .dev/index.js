@@ -73,8 +73,11 @@ const exec = async () => {
 	];
 	try {
 		for (const v of _arrCmd) {
+			// @ts-ignore
 			await shelljs.exec(v);
 		}
+		// @ts-ignore
+		await shelljs.exec('scp -4 -C -r ./* root@47.98.138.122:/ofus_file/html/nginx/www/@dev');
 		tEcho('发布完成！\n\n', '成功', 'SUCC');
 	} catch (err) {
 		console.error(err);
