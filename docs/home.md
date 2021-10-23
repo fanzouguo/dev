@@ -453,6 +453,16 @@
 		<p>-</p>
 		<span onClick="navTo('https://convertio.co/zh/')">进入</span>
 	</li>
+	<li class="itemList">
+		<span>SVG 压缩优化</span>
+		<p>-</p>
+		<span onClick="navTo('https://www.zhangxinxu.com/sp/svgo/')">进入</span>
+	</li>
+	<li class="itemList">
+		<span>SVG 压缩优化-2</span>
+		<p>设置用默认的就行</p>
+		<span onClick="navTo('https://jakearchibald.github.io/svgomg/')">进入</span>
+	</li>
 </ul>
 
 * #### JSON 类
