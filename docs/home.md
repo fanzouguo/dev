@@ -403,6 +403,11 @@
 		<p>详细描述</p>
 		<span onClick="navTo('#/tutorial/svg.md')">进入</span>
 	</li>
+	<li class="itemList">
+		<span>SSH 免密登录</span>
+		<p>详细描述</p>
+		<span onClick="navTo('https://blog.csdn.net/weixin_40607008/article/details/98471293')">进入</span>
+	</li>
 </ul>
 
 * #### 工具库
